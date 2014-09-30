@@ -1,0 +1,11 @@
+name: atype
+description: "Fiddly digits, itchy britches"
+
+markdown: redcarpet
+pygments: true
+logo: false
+paginate: 15
+
+# Details for the RSS feed generator
+url:            'http://nreynolds.co.uk'
+author:         'Nathan Reynolds'
