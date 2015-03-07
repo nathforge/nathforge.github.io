@@ -1,11 +1,11 @@
-name: Nathan Reynolds
-description: "I will definitely build this site"
+name: nathforge
+#description: ""
 
 markdown: redcarpet
-pygments: true
+highlighter: 'pygments'
 logo: false
 paginate: 15
 
-# Details for the RSS feed generator
-url:            'http://nreynolds.co.uk'
-author:         'Nathan Reynolds'
+# RSS feed
+url: 'http://nreynolds.co.uk'
+author: 'Nathan Reynolds'

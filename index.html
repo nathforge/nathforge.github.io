@@ -15,7 +15,7 @@ cover: false
             {% endif %}
             <h1 class="blog-title">{{ site.name }}</h1>
             <h2 class="blog-description">
-                {{ site.description }}.
+                {{ site.description }}
                 {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
             </h2>
         </div>
@@ -23,6 +23,22 @@ cover: false
 </header>
 
 <main class="content" role="main">
+    <article class="post">
+        <p>
+            Some day I'll build this site.
+        </p>
+        <p>
+            Looking for a Python/Django/Linux server-side developer?
+            <a href="mailto:email@nreynolds.co.uk">Get in touch</a>!
+        </p>
+        <ul>
+            <li><a href="https://github.com/nathforge">Github</a></li>
+            <li><a href="https://www.linkedin.com/profile/view?id=378757804">LinkedIn</a></li>
+            <li><a href="mailto:email@nreynolds.co.uk">Email</a></li>
+        </ul>
+    </article>
+
+    <!--
     {% for post in paginator.posts %}
         <article class="post">
             <header class="post-header">
@@ -51,4 +67,5 @@ cover: false
             <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
         {% endif %}
     </nav>
+    -->
 </main>
