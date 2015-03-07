@@ -5,6 +5,10 @@ cover: false
 #about: 'about.html'
 ---
 
+<style>
+ul a { color: #BD3232; text-decoration: none; }
+</style>
+
 <header class="site-head" {% if page.cover %} style="background-image: url({{ page.cover }})"{% endif %}>
     <div class="vertical">
         <div class="site-head-content" class="inner">
@@ -31,10 +35,19 @@ cover: false
             Looking for a Python/Django/Linux server-side developer?
             <a href="mailto:email@nreynolds.co.uk">Get in touch</a>!
         </p>
+        <p>
+            <a href="https://github.com/nathforge">Github</a> /
+            <a href="https://www.linkedin.com/profile/view?id=378757804">LinkedIn</a> /
+            <a href="mailto:email@nreynolds.co.uk">Email</a>
+        </p>
+        <hr>
+        <h2 style="font-weight: normal; font-size: 150%">Open-source projects:</h2>
         <ul>
-            <li><a href="https://github.com/nathforge">Github</a></li>
-            <li><a href="https://www.linkedin.com/profile/view?id=378757804">LinkedIn</a></li>
-            <li><a href="mailto:email@nreynolds.co.uk">Email</a></li>
+            <li><a href="https://github.com/nathforge/django-swanson">Swanson</a>: Django BDD test framework</li>
+            <li><a href="http://djangowos.com">Django Wall of Superpowers</a></li>
+            <li><a href="https://github.com/nathforge/django-wiretap">Wiretap</a>: record HTTP requests and responses server-side</li>
+            <li><a href="https://github.com/nathforge/myfitnesspal-sync">MyFitnessPal sync</a>: Unofficial MFP data sync client</li>
+            <li><a href="https://github.com/nathforge">But wait, there's more&hellip;</a></li>
         </ul>
     </article>
 
