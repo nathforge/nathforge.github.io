@@ -1,5 +1,5 @@
-name: nathforge
-#description: ""
+name: Nathan Reynolds
+description: "Django freelancer, Norwich UK"
 
 markdown: redcarpet
 highlighter: 'pygments'

@@ -7,6 +7,7 @@ cover: false
 
 <style>
 ul a { color: #BD3232; text-decoration: none; }
+.projects li { margin-bottom: 0.75em; }
 </style>
 
 <header class="site-head" {% if page.cover %} style="background-image: url({{ page.cover }})"{% endif %}>
@@ -37,15 +38,28 @@ ul a { color: #BD3232; text-decoration: none; }
             <a href="https://www.linkedin.com/profile/view?id=378757804">LinkedIn</a> /
             <a href="mailto:email@nreynolds.co.uk">Email</a>
         </p>
-        <hr>
-        <h2 style="font-weight: normal; font-size: 150%">Open-source projects:</h2>
-        <ul>
-            <li><a href="https://github.com/nathforge/django-swanson">Swanson</a>: Django BDD test framework</li>
-            <li><a href="http://djangowos.com">Django Wall of Superpowers</a></li>
-            <li><a href="https://github.com/nathforge/django-wiretap">Wiretap</a>: record HTTP requests and responses server-side</li>
-            <li><a href="https://github.com/nathforge/myfitnesspal-sync">MyFitnessPal sync</a>: Unofficial MFP data sync client</li>
-            <li><a href="https://github.com/nathforge">But wait, there's more&hellip;</a></li>
-        </ul>
+        <hr style="margin: 2em 0">
+        <div style="overflow: auto; width: 100%" class="projects">
+            <div style="width: 50%; float: left">
+                <h2 style="font-weight: normal; font-size: 150%">Open-source:</h2>
+                <ul>
+                    <li><a href="https://github.com/nathforge/django-swanson">Swanson</a><br>BDD test framework</li>
+                    <li><a href="http://djangowos.com">Django Wall of Superpowers</a><br>Python 3 compatibility chart</li>
+                    <li><a href="https://github.com/nathforge/django-wiretap">Wiretap</a><br>Record HTTP data in Django</li>
+                    <li><a href="https://github.com/nathforge/myfitnesspal-sync">MyFitnessPal sync</a><br>Unofficial MFP data sync client</li>
+                    <li><a href="https://github.com/nathforge">But wait, there's more&hellip;</a></li>
+                </ul>
+            </div>
+            <div style="width: 50%; float: right">
+                <h2 style="font-weight: normal; font-size: 150%">Commercial work:</h2>
+                <ul>
+                    <li><a href="http://www.proxama.com/">Proxama</a><br>Technical lead</li>
+                    <li><a href="http://www.fujifilm.com/">Fujifilm</a><br>Optimised server performance</li>
+                    <li><a href="http://www.aviva.co.uk/">Aviva</a><br>Built in-house CMS</li>
+                    <li><a href="http://www.rac.co.uk/">RAC</a><br>Converted to Django</li>
+                </ul>
+            </div>
+        </div>
     </article>
 
     <!--
